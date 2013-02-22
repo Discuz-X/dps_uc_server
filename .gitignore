@@ -217,3 +217,7 @@ pip-log.txt
 
 /data/config.inc.php
 *.lock
+/data/avatar
+/data/cache
+/data/logs
+/data/view
