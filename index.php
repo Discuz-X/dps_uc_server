@@ -49,7 +49,7 @@ if(file_exists(UC_ROOT.RELEASE_ROOT.'model/base.php')) {
 	require UC_ROOT.'model/base.php';
 }
 
-if(in_array($m, array('app', 'frame', 'user', 'pm', 'pm_client', 'tag', 'feed', 'friend', 'domain', 'credit', 'mail', 'version'))) {
+if(in_array($m, array('app', 'frame', 'user', 'pm', 'pm_client', 'tag', 'feed', 'friend', 'domain', 'credit', 'mail', 'version', 'object'))) {
 
 	if(file_exists(UC_ROOT.RELEASE_ROOT."control/$m.php")) {
 		include UC_ROOT.RELEASE_ROOT."control/$m.php";
